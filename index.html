@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box-1">
+        <div>
+          <p class="playername">PLAYER 1</p>
+          <p class="totalscore">0</p>
+        </div>
+        <btn class="btn">
+          CURRENT
+          <p class="current-score current-score-1">0</p>
+        </btn>
+      </div>
+      <div class="box box-2 overlay">
+        <div>
+          <p class="playername">PLAYER 2</p>
+          <p class="totalscore">0</p>
+        </div>
+        <btn class="btn">
+          CURRENT
+          <p class="current-score current-score-2">0</p>
+        </btn>
+      </div>
+      <btn class="btn--mid btn--new-game">
+        <ion-icon name="repeat-outline" class="icon"></ion-icon>
+        NEW GAME</btn
+      >
+
+      <div class="chance-number">?</div>
+
+      <btn class="btn--mid btn--roll-dice">
+        <ion-icon name="dice-outline" class="icon"></ion-icon>
+        ROLL DICE</btn
+      >
+      <btn class="btn--mid btn--hold">
+        <ion-icon name="save-outline" class="icon"></ion-icon>
+        HOLD</btn
+      >
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
